@@ -1,0 +1,255 @@
+{
+  "issues": [
+    {
+      "id": "issue-1",
+      "title": "Massive Crater Pothole near MG Road Metro Pillar 120",
+      "description": "A deep pothole has formed right after the metro station exit. It is extremely hazardous for two-wheelers, especially during evening hours and rainy weather. Multiple riders have already slipped.",
+      "category": "pothole",
+      "severity": "critical",
+      "status": "reported",
+      "department": "roads",
+      "location": {
+        "lat": 12.9754,
+        "lng": 77.6068,
+        "address": "MG Road, near Metro Station Pillar 120, Bengaluru, Karnataka 560001"
+      },
+      "imageUrl": "https://images.unsplash.com/photo-1515162305285-0293e4767cc2?q=80&w=800",
+      "reportedBy": "anon-101",
+      "reportedByName": "Aarav Mehta",
+      "votes": 42,
+      "votedUsers": [],
+      "aiSummary": "A highly dangerous, deep pothole at a major metro transit exit on MG Road. Poses a critical safety risk to two-wheelers and pedestrians in high-density traffic.",
+      "estimatedCost": "₹8,000–₹12,000",
+      "suggestedAction": "Immediate asphalt patching, temporary barricading of the lane, and leveling with the surrounding pavement.",
+      "urgencyScore": 9,
+      "potentialImpact": "Severe vehicle damage or fatal skidding accidents, particularly for evening two-wheeler commuters.",
+      "createdAt": "2026-06-28T06:43:22.380Z",
+      "resolvedAt": null,
+      "resolutionNotes": ""
+    },
+    {
+      "id": "issue-2",
+      "title": "Major Water Pipeline Pipe Leak on Indiranagar 100 Feet Road",
+      "description": "High-pressure water pipeline has burst, causing thousands of liters of clean drinking water to flood the side lanes near the Starbucks outlet. The water is pooling and causing traffic delays.",
+      "category": "water",
+      "severity": "high",
+      "status": "in_progress",
+      "department": "water",
+      "location": {
+        "lat": 12.9645,
+        "lng": 77.6385,
+        "address": "100 Feet Road, HAL 2nd Stage, Indiranagar, Bengaluru, Karnataka 560038"
+      },
+      "imageUrl": "https://hyderabadmail.com/wp-content/uploads/2026/06/water-patancheru-leakage.jpg",
+      "reportedBy": "anon-102",
+      "reportedByName": "Neha Sharma",
+      "votes": 28,
+      "votedUsers": [],
+      "aiSummary": "Main utility water line burst on Indiranagar 100 Feet Road causing localized flooding, wastage of public drinking water, and major vehicular slow-downs.",
+      "estimatedCost": "₹15,000–₹25,000",
+      "suggestedAction": "Isolate water flow valve for Ward 12, excavate and patch the pipeline rupture, and restore road surface.",
+      "urgencyScore": 8,
+      "potentialImpact": "Wastage of critical municipal drinking water supply and disruption of daily service to HAL 2nd Stage residential wards.",
+      "createdAt": "2026-06-29T06:43:22.381Z",
+      "resolvedAt": null,
+      "resolutionNotes": "BWSSB officials have arrived at the scene. They are currently shutting off the primary water valve to excavate the pipe."
+    },
+    {
+      "id": "issue-3",
+      "title": "Broken Streetlights causing total darkness near Koramangala Club",
+      "description": "A row of 5 streetlights is completely dead along the park boundary road near Koramangala Club. The entire stretch of 200m is in pitch black darkness, creating safety concerns for girls and evening walkers.",
+      "category": "streetlight",
+      "severity": "medium",
+      "status": "verified",
+      "department": "electricity",
+      "location": {
+        "lat": 12.9348,
+        "lng": 77.6189,
+        "address": "6th Cross Road, Koramangala 4th Block, Bengaluru, Karnataka 560034"
+      },
+      "imageUrl": "https://images.unsplash.com/photo-1518156677180-95a2893f3e9f?q=80&w=800",
+      "reportedBy": "anon-103",
+      "reportedByName": "Rohan Das",
+      "votes": 19,
+      "votedUsers": [],
+      "aiSummary": "Multiple non-functioning streetlights near Koramangala Park creating a dark spot on a public road, leading to safety and security risks for pedestrian traffic.",
+      "estimatedCost": "₹4,000–₹7,000",
+      "suggestedAction": "Inspect localized circuit breaker, replace defective LED bulbs, and verify wiring connections.",
+      "urgencyScore": 6,
+      "potentialImpact": "Increased risk of petty crime, purse snatching, or trip hazards for evening pedestrians.",
+      "createdAt": "2026-06-29T18:43:22.381Z",
+      "resolvedAt": null,
+      "resolutionNotes": "Local inspector has verified the issue and assigned it to the BBMP Electrical Division team."
+    },
+    {
+      "id": "issue-4",
+      "title": "Illegal Garbage Overflow and Dumping Yard in HSR Layout Sector 3",
+      "description": "A huge pile of household garbage and commercial waste has been dumped directly on the roadside corner. Stray dogs are scattering it across the lane. The smell is unbearable and breathing is difficult.",
+      "category": "garbage",
+      "severity": "high",
+      "status": "reported",
+      "department": "sanitation",
+      "location": {
+        "lat": 12.9116,
+        "lng": 77.6412,
+        "address": "Sector 3, near 14th Main road corner, HSR Layout, Bengaluru, Karnataka 560102"
+      },
+      "imageUrl": "https://images.unsplash.com/photo-1611284446314-60a58ac0deb9?q=80&w=800",
+      "reportedBy": "anon-104",
+      "reportedByName": "Priyah Gowda",
+      "votes": 35,
+      "votedUsers": [],
+      "aiSummary": "Large volume of unsegregated, decomposing waste piled on a public street corner, attracting pests and creating public health hazards.",
+      "estimatedCost": "₹3,000–₹5,000",
+      "suggestedAction": "Clear current dump with loader, spray disinfectants, and install \"No Littering\" signage with security cameras.",
+      "urgencyScore": 8,
+      "potentialImpact": "Spread of vector-borne diseases, severe odor pollution, and contamination of local storm water channels.",
+      "createdAt": "2026-06-30T00:43:22.381Z",
+      "resolvedAt": null,
+      "resolutionNotes": ""
+    },
+    {
+      "id": "issue-5",
+      "title": "Clogged Stormwater Drain Flooding Commercial Street Lane",
+      "description": "A storm drain is completely blocked with plastics and construction silt. With even a minor drizzle, dirty drain water overflows into the shops and walkway of Commercial Street, creating highly unsanitary conditions.",
+      "category": "drainage",
+      "severity": "critical",
+      "status": "resolved",
+      "department": "sanitation",
+      "location": {
+        "lat": 12.9822,
+        "lng": 77.5983,
+        "address": "Commercial Street Lane, Tasker Town, Shivaji Nagar, Bengaluru, Karnataka 560001"
+      },
+      "imageUrl": "https://images.unsplash.com/photo-1605647540924-852290f6b0d5?q=80&w=800",
+      "reportedBy": "anon-105",
+      "reportedByName": "Kabir Ahmed",
+      "votes": 56,
+      "votedUsers": [],
+      "aiSummary": "Debris-clogged stormwater inlet causing raw commercial wastewater backup and road water-logging in high-traffic shopping avenues.",
+      "estimatedCost": "₹6,000–₹10,000",
+      "suggestedAction": "Perform high-pressure flushing of the drainage channel, manually extract solid blockage, and install steel trash grates.",
+      "urgencyScore": 9,
+      "potentialImpact": "Damage to commercial shop inventories, public health risks from dirty water contact, and gridlock of foot traffic.",
+      "createdAt": "2026-06-26T06:43:22.381Z",
+      "resolvedAt": "2026-06-30T02:43:22.381Z",
+      "resolutionNotes": "BBMP sanitation crew deployed suction trucks and cleared all plastic debris from the grates. Stormwater flow is now fully restored. Steel grates reinforced."
+    }
+  ],
+  "users": [
+    {
+      "id": "anon-101",
+      "name": "Aarav Mehta",
+      "email": "aarav.mehta@gmail.com",
+      "points": 480,
+      "badges": [
+        "hero_reporter",
+        "community_guardian"
+      ],
+      "issuesReported": 9,
+      "issuesVerified": 6,
+      "createdAt": "2026-05-31T06:43:22.381Z"
+    },
+    {
+      "id": "anon-102",
+      "name": "Neha Sharma",
+      "email": "neha.sharma@gmail.com",
+      "points": 350,
+      "badges": [
+        "hero_reporter"
+      ],
+      "issuesReported": 6,
+      "issuesVerified": 4,
+      "createdAt": "2026-06-05T06:43:22.381Z"
+    },
+    {
+      "id": "anon-103",
+      "name": "Rohan Das",
+      "email": "rohan.das@hotmail.com",
+      "points": 210,
+      "badges": [
+        "community_eye"
+      ],
+      "issuesReported": 3,
+      "issuesVerified": 5,
+      "createdAt": "2026-06-15T06:43:22.381Z"
+    },
+    {
+      "id": "anon-104",
+      "name": "Priyah Gowda",
+      "email": "priyah.gowda@outlook.com",
+      "points": 320,
+      "badges": [
+        "hero_reporter",
+        "speed_resolver"
+      ],
+      "issuesReported": 5,
+      "issuesVerified": 3,
+      "createdAt": "2026-06-10T06:43:22.381Z"
+    },
+    {
+      "id": "anon-105",
+      "name": "Kabir Ahmed",
+      "email": "kabir.ahmed@yahoo.com",
+      "points": 620,
+      "badges": [
+        "hero_reporter",
+        "community_eye",
+        "nagar_seva_legend"
+      ],
+      "issuesReported": 12,
+      "issuesVerified": 10,
+      "createdAt": "2026-05-16T06:43:22.381Z"
+    },
+    {
+      "id": "user-1782801813103",
+      "name": "Arihant Shukla",
+      "email": "arihantshukla991990@gmail.com",
+      "points": 100,
+      "badges": [
+        "pioneer_citizen"
+      ],
+      "issuesReported": 0,
+      "issuesVerified": 0,
+      "createdAt": "2026-06-30T06:43:33.103Z"
+    }
+  ],
+  "comments": [
+    {
+      "id": "comment-1",
+      "issueId": "issue-1",
+      "userName": "Vikram Singh",
+      "text": "I hit this pothole yesterday on my scooter! It is extremely dangerous. BBMP needs to repair this immediately before someone is seriously injured.",
+      "createdAt": "2026-06-29T06:43:22.381Z"
+    },
+    {
+      "id": "comment-2",
+      "issueId": "issue-1",
+      "userName": "Ananya Rao",
+      "text": "Voted! I live nearby and it has been getting larger since the pre-monsoon showers last week.",
+      "createdAt": "2026-06-29T18:43:22.381Z"
+    },
+    {
+      "id": "comment-3",
+      "issueId": "issue-2",
+      "userName": "Siddharth M.",
+      "text": "The water pressure is so high it is eroding the tar layer underneath the road. Glad this was reported, huge water wastage!",
+      "createdAt": "2026-06-29T12:43:22.381Z"
+    }
+  ],
+  "insights": {
+    "topPriorityAreas": [
+      "MG Road Metro Station Area — Critical pothole density",
+      "Indiranagar 100ft road — Water line leakage cluster",
+      "Commercial Street Shopping Zone — Drainage blockage backlog"
+    ],
+    "patterns": [
+      "Water supply leaks spike around newly laid pavement corridors.",
+      "Streetlight failures are 35% higher in Ward 4 parks compared to roads.",
+      "Stormwater clogs correlate directly with unsegregated commercial food packing dumping."
+    ],
+    "resourceSuggestion": "Deploy sanitation suction vehicle to Sector 3 HSR layout and roads division team to MG Road metro exit.",
+    "predictedIssues": "Heavy rainfall warnings next week will cause flash pooling on Commercial Street if drains are not cleared.",
+    "weeklyHighlight": "142 local issues resolved this week in Bengaluru South, cutting average response time from 15 days to 11 days."
+  }
+}

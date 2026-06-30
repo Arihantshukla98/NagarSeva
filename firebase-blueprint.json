@@ -1,0 +1,102 @@
+{
+  "entities": {
+    "User": {
+      "title": "User Profile",
+      "description": "User account and gamification statistics",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique user ID matching Firebase Auth UID"
+        },
+        "name": {
+          "type": "string",
+          "description": "User display name"
+        },
+        "email": {
+          "type": "string",
+          "description": "User email address"
+        },
+        "points": {
+          "type": "number",
+          "description": "Civic points awarded for reporting and verifying issues"
+        },
+        "badges": {
+          "type": "array",
+          "description": "List of earned civic badges"
+        },
+        "issuesReported": {
+          "type": "number",
+          "description": "Count of issues reported by user"
+        },
+        "issuesVerified": {
+          "type": "number",
+          "description": "Count of issues verified by user"
+        },
+        "createdAt": {
+          "type": "string",
+          "description": "ISO timestamp of user registration"
+        }
+      },
+      "required": ["id", "name", "email", "points", "badges", "issuesReported", "issuesVerified", "createdAt"]
+    },
+    "Notification": {
+      "title": "Civic Notification",
+      "description": "Real-time updates regarding a reported issue status change",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique notification identifier"
+        },
+        "userId": {
+          "type": "string",
+          "description": "Recipient User ID"
+        },
+        "issueId": {
+          "type": "string",
+          "description": "Associated Issue ID"
+        },
+        "issueTitle": {
+          "type": "string",
+          "description": "Title of the associated issue"
+        },
+        "message": {
+          "type": "string",
+          "description": "Notification message text"
+        },
+        "type": {
+          "type": "string",
+          "description": "Type of notification (status_change, comment, vote)"
+        },
+        "oldStatus": {
+          "type": "string",
+          "description": "Previous issue status"
+        },
+        "newStatus": {
+          "type": "string",
+          "description": "New issue status"
+        },
+        "createdAt": {
+          "type": "string",
+          "description": "ISO timestamp of notification creation"
+        },
+        "read": {
+          "type": "boolean",
+          "description": "Indicates whether the user has read the notification"
+        }
+      },
+      "required": ["id", "userId", "issueId", "issueTitle", "message", "type", "createdAt", "read"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": "User",
+      "description": "Storage for public and verified user profiles"
+    },
+    "/notifications/{notificationId}": {
+      "schema": "Notification",
+      "description": "Storage for user real-time notification records"
+    }
+  }
+}

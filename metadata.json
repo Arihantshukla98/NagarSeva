@@ -1,0 +1,10 @@
+{
+  "name": "NagarSeva",
+  "description": "AI-powered civic tech platform for community issue reporting, verification, and automated severity routing in Indian cities.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
