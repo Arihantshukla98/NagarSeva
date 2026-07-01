@@ -13,7 +13,7 @@ Empowering citizens to report civic issues intelligently using **Google Gemini A
 ![Node.js](https://img.shields.io/badge/Node.js-22-339933?style=for-the-badge&logo=node.js)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-[Live Demo](#) · [Report Bug](#) · [Request Feature](#)
+[Live Demo](https://nagarseva-rq5o.onrender.com/) · [Report Bug](#) · [Request Feature](https://forms.gle/e3Jv5ZEzk6PkHe3p6)
 
 </div>
 
@@ -267,6 +267,16 @@ npm start
 - Cleaner, better-maintained public spaces
 - Faster issue resolution cycles
 - Long-term data-driven governance
+
+---
+
+## 💡 Feature Requests
+
+Have an idea to make NagarSeva better? We'd love to hear it.
+
+**[👉 Submit a Feature Request](https://forms.gle/e3Jv5ZEzk6PkHe3p6)**
+
+Every submission is reviewed and considered for future releases.
 
 ---
 
